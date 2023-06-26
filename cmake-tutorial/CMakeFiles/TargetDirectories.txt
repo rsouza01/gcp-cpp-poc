@@ -1,0 +1,3 @@
+/workspaces/gcp-cpp-poc/cmake-tutorial/CMakeFiles/cmake_hello.dir
+/workspaces/gcp-cpp-poc/cmake-tutorial/CMakeFiles/edit_cache.dir
+/workspaces/gcp-cpp-poc/cmake-tutorial/CMakeFiles/rebuild_cache.dir
