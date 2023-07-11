@@ -11,18 +11,6 @@ char* get_secret(const char* secret_name, int secret_version) {
   return NULL;
 }
 
-int main(int argc, char* argv[]) {
-
-  std::cout << "=== main ===" << "\n";
-
-  const char* secret_name = "projects/281699279307/secrets/secretmanager_quickstart";
-
-  char* secret = get_secret(secret_name, 1);
-
-  std::cout << "Secret: " << secret << "\n";
-
-  return 0;
-}
 
 
   // int _main(int argc, char* argv[]) {

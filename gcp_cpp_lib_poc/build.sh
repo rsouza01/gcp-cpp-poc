@@ -1,7 +1,8 @@
 #!/bin/bash
 
-rm -rf ./build/
+OUTPUT="./output"
+rm -rf $OUTPUT/
 
-cmake -H. -Bbuild
-cd ./build
+cmake -H. -B${OUTPUT}
+cd ${OUTPUT}
 cmake --build .

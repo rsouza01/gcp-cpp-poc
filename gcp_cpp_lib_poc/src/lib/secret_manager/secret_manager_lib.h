@@ -2,6 +2,6 @@
 #ifndef SECRET_MANAGER_LIB_H
 #define SECRET_MANAGER_LIB_H
 
-char* get_secret(char* secret_name, int secret_version);
+char* get_secret(const char* secret_name, int secret_version);
 
 #endif

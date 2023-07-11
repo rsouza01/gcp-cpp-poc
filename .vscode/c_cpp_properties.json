@@ -3,7 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/gcp_cpp_lib_poc"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",
