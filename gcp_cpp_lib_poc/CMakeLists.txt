@@ -3,12 +3,12 @@ project(mana-secretmanager CXX)
 
 # find_package(google_cloud_cpp_secretmanager REQUIRED)
 
-# MSVC requires some additional code to select the correct runtime library
-if (VCPKG_TARGET_TRIPLET MATCHES "-static$")
-    set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
-else ()
-    set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL")
-endif ()
+# # MSVC requires some additional code to select the correct runtime library
+# if (VCPKG_TARGET_TRIPLET MATCHES "-static$")
+#     set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
+# else ()
+#     set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL")
+# endif ()
 
 
 set(SOURCES ./src/secret_client.cpp)
